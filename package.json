@@ -1,0 +1,26 @@
+{
+  "name": "italiano",
+  "version": "0.0.0",
+  "description": "is a complicated language",
+  "main": "index.js",
+  "scripts": {
+    "postversion": "git push origin v${npm_package_version}; npm publish; npm run push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fibo/italiano.git"
+  },
+  "keywords": [
+    "language"
+  ],
+  "author": {
+    "name": "Gianluca Casati",
+    "url": "http://g14n.info"
+  },
+  "bugs": {
+    "url": "https://github.com/fibo/italiano/issues"
+  },
+  "homepage": "http://npm.im/italiano",
+  "license": "MIT"
+}
