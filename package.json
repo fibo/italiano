@@ -1,6 +1,6 @@
 {
   "name": "italiano",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "is a complicated language",
   "main": "index.js",
   "scripts": {
